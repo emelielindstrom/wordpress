@@ -1,0 +1,37 @@
+<?php
+define('EDIT', __('Edit', 'startpoint'));
+define('BOOKMARK_THE', __('Bookmark the', 'startpoint'));
+define('PERMALINK', __('&nbsp;permalink', 'startpoint'));
+define('AND_TAGGED', __('and tagged', 'startpoint'));
+define('HOME', __('Home', 'startpoint'));
+define('PRIMARY_WIDGET', __('Primary Widget Area', 'startpoint'));
+define('THE_PRIMARY_WIDGET', __('The primary widget area', 'startpoint'));
+define('SECONDRY_WIDGET', __('Secondary Widget Area', 'startpoint'));
+define('THE_SECONDRY_WIDGET', __('The secondary widget area', 'startpoint'));
+define('FIRST_FOOTER_WIDGET', __('First Footer Widget Area', 'startpoint'));
+define('THE_FIRST_FOOTER_WIDGET', __('The first footer widget area', 'startpoint'));
+define('SECONDRY_FOOTER_WIDGET', __('Second Footer Widget Area', 'startpoint'));
+define('THE_SECONDRY_FOOTER_WIDGET', __('The second footer widget area', 'startpoint'));
+define('THIRD_FOOTER_WIDGET', __('Third Footer Widget Area', 'startpoint'));
+define('THE_THIRD_FOOTER_WIDGET', __('The third footer widget area', 'startpoint'));
+define('FOURTH_FOOTER_WIDGET', __('Fourth Footer Widget Area', 'startpoint'));
+define('THE_FOURTH_FOOTER_WIDGET', __('The fourth footer widget area', 'startpoint'));
+define('TRY_LOOKING_MONTHLY_ARCHIVES', __('Try looking in the monthly archives. %1$s', 'startpoint'));
+define('MOST_USED_CATEGORIES', __('Most Used Categories', 'startpoint'));
+define('IT_SEEMS_WE_CANT_FIND_TRY_LOOKING', __('It seems we can&rsquo;t find what you&rsquo;re looking for. Trying one of the links below, can help.', 'startpoint'));
+define('THIS_IS_SOMEWHAT_EMBRASSING', __('This is somewhat embarrassing, isn&rsquo;t it?', 'startpoint'));
+define('OLDER_POSTS', __('&larr; Older posts', 'startpoint'));
+define('NEWER_POSTS', __('Newer posts &rarr;', 'startpoint'));
+define('RETURN_TO_PREVIOUS', __('Return to %s', 'startpoint'));
+define('BY_AUTHOR', __('By %2$s', 'startpoint'));
+define('VIEW_ALL_POSTS_BY_AUTHOR', __('View all posts by %s', 'startpoint'));
+define('PUBLISHED_BY', __('Published %2$s', 'startpoint'));
+define('FULL_SIZE_IS', __('Full size is %s pixels', 'startpoint'));
+define('LINK_TO_FULL_SIZE', __('Link to full-size image', 'startpoint'));
+define('CONTINUE_READING', __('Continue reading &rarr;', 'startpoint'));
+define('PAGES_COLON', __('Pages:', 'startpoint'));
+define('SORRY_NO_POST_MATCHED_YOUR_CRITERIA', __('Sorry no post matched your criteria', 'startpoint'));
+define('HOME_MENU', __('Main Menu', 'startpoint'));
+define('FRONT_MENU', __('Front Page Menu', 'startpoint'));
+define('FOOTER_MENU', __('Footer Menu', 'startpoint'));
+?>

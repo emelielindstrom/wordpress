@@ -1,0 +1,83 @@
+.view {
+   width: 32%;
+   margin-right: 10px;
+   margin-bottom: 10px;
+   float: left;
+   overflow: hidden;
+   position: relative;
+   text-align: center;
+   -webkit-box-shadow: 1px 1px 2px #e6e6e6;
+   -moz-box-shadow: 1px 1px 2px #e6e6e6;
+   box-shadow: 1px 1px 2px #e6e6e6;
+   cursor: default;
+   background: #fff url(../images/bgimg.jpg) no-repeat center center;
+    -webkit-animation-duration: 1s;
+    animation-duration: 1s;
+    -webkit-animation-fill-mode: both;
+    animation-fill-mode: both;
+}
+
+
+.view .mask,.view .content {
+   width: 90%;
+   height: 90%;
+   padding: 5%;
+   position: absolute;
+   overflow: hidden;
+   top: 0;
+   left: 0;
+}
+.view .mask{
+    background-color: rgba(62, 173, 123, 0.8);
+}
+.view img {
+   display: block;
+   position: relative;
+}
+.view h2 {
+   text-transform: uppercase;
+   color: #fff;
+   text-align: center;
+   position: relative;
+   font-size: 17px;
+   padding: 10px;
+   background: rgba(0, 0, 0, 0.6);
+   margin: 20px 0 0 0;
+   line-height: normal;
+}
+.view p {
+   font-family: Georgia, serif;
+   font-style: italic;
+   font-size: 12px;
+   position: relative;
+   color: #fff;
+   padding: 10px 20px 20px;
+   text-align: center;
+}
+.view a.info {
+   display: inline-block;
+   text-decoration: none;
+   padding: 7px 14px;
+   background: #000;
+   color: #fff;
+   text-transform: uppercase;
+
+}
+.view a.info:hover {
+    background: rgba(255,255,255,0.05) !important;
+}
+
+.btn-bordered{
+    background: rgba(255,255,255,0.1) !important;
+    border-radius: 3px;
+    border: 1px solid rgba(255, 255, 255, 0.7) !important;
+    color: #ffffff !important;
+    padding: 7px 10px;
+    font-size: 8pt;
+    font-weight: bold;
+}
+
+.view:hover .btn-bordered{
+    -webkit-animation-name: bounceIn;
+    animation-name: bounceIn;
+}

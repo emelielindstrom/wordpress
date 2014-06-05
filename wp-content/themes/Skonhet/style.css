@@ -1,0 +1,17 @@
+/*
+Theme Name: Skonhet
+Theme URI: http://hovecollege.co.uk/
+Author: EmelieLindstrom
+Author URI: http://arrow-media.co.uk/
+Description: Child Theme of origami
+Version: 1.0
+License: GNU General Public License
+License URI: http://www.gnu.org/licenses/gpl-2.0.html
+Text Domain: EmelieLindstroms
+Template: origami
+Parent Theme: origami
+*/
+
+/* Import the Twenty Twelve stylesheet */
+
+@import url('../origami/style.css');

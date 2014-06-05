@@ -1,0 +1,185 @@
+/*
+Theme Name: Emelie Lindstrom
+Theme URI: http://hovecollege.co.uk/
+Author: Emelie Lindstrom
+Author URI: http://arrow-media.co.uk/
+Description: Child Theme of radiate
+Version: 1.0
+License: GNU General Public License
+License URI: http://www.gnu.org/licenses/gpl-2.0.html
+Text Domain: EmelieLindstrom
+Template: radiate
+Parent Theme: radiate
+*/
+
+@import url('../radiate/style.css');
+
+
+#masthead {
+width: 100%;
+}
+
+#content{
+    text-align: center;
+}
+
+
+
+.hentry {
+
+
+    background-color: #FFFFFF;
+
+    padding-left: 24%;
+    width: 100%;
+    font-size: 15px;
+
+}
+.page-header {
+    margin-bottom: 40px;
+
+    padding: 30px 30px;
+
+    background-color: #FFFFFF;
+    text-align: center;
+}
+.updated {
+    display: none;
+}
+.single .byline,
+.group-blog .byline {
+    display: inline;
+}
+.page-content,
+.entry-content,
+.entry-summary {
+    margin: 15px 0px 0;
+
+    text-align: center;
+}
+.page-links {
+    clear: both;
+    margin: 0 0 15px;
+
+}
+.entry-title {
+    font-size: 30px;
+
+
+
+    line-height: 1.5;
+    text-align: center;
+}
+.page-title {
+    font-size: 30px;
+    line-height: 1.5;
+    text-align: center;
+}
+.entry-title a {
+    color: #444444;
+}
+#content .entry-title a:hover {
+    color: #632E9B;
+    text-decoration: none;
+    text-align: center;
+}
+.entry-content ul {
+    list-style: square;
+}
+.entry-content ul,
+.entry-content ol {
+    padding: 0 0 0 35px;
+    margin-bottom: 30px;
+}
+.entry-content li > ul,
+.entry-content li > ol {
+    margin-bottom: 0;
+}
+.entry-header .entry-meta span {
+    padding-right: 20px;
+    text-align: center;
+}
+.entry-meta span {
+    padding-right: 20px;
+    color: #999999;
+    font-size: 14px;
+
+    text-align: center;
+
+}
+.entry-meta span:hover {
+    color: #632E9B;
+}
+.entry-meta span a {
+    color: #999999;
+}
+#content .entry-meta span a:hover {
+    color: #632E9B;
+    text-decoration: none;
+
+
+}
+
+.header-wrap {
+
+    position: fixed;
+    top: 0;
+    width: 100%;
+    margin: 0 auto;
+    z-index: 999999;
+    no-repeat: left center;
+    background: #FFFFFF url('images/loggaa.png')  no-repeat left center;
+    opacity:0.9;
+    filter:alpha(opacity=90); /* For IE8 and earlier */
+}
+
+
+
+
+.main-navigation li {
+    font-family: 'Roboto';
+    font-size: 1.8rem;
+    line-height: 3.5;
+}
+
+#parallax-bg{
+    background-size: cover;
+}
+/* =Responsive Structure
+----------------------------------------------- */
+@media screen and (max-width: 1308px) {
+    #page {
+        width: 100%;
+    }
+    .inner-wrap {
+        width: 96%;
+    }
+}
+
+@media screen and (max-width: 782px) {
+    body.admin-bar .header-wrap {
+        top: 45px;
+    }
+}
+
+/* All Mobile Portrait size smaller than 768 (devices and browsers) */
+@media screen and (max-width: 768px) {
+    article.post-9,article.post-5,article.post-2,article.post-7{
+        width: 375px;
+
+    }
+
+}
+@media only screen and (max-width: 600px) {
+    .header-wrap {
+        position: relative;
+
+
+
+
+
+    }
+    article.post-9,article.post-5,article.post-2,article.post-7{
+        width: 230px;
+    }
+}

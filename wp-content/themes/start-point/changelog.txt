@@ -1,0 +1,16 @@
+== Changelog ==
+
+= Theme Name StartPoint =
+= Version 1.2 =
+1. Front page configured for reading setting changes.
+2. Analytic code option function removed because of unused.
+3. Default favicon link removed.
+4. Css error fixed.
+
+= Version 1.1 =
+1. Fixed - Escape the home url in header.php and every file
+2. Fixed - Remove the hard coded meta keywords from header.php
+3. Fixed - All functions prefixed with unique theme slug.
+
+= Version 1.0 =
+  StartPoint Theme is created on 01-03-2013.

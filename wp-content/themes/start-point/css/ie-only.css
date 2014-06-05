@@ -1,0 +1,55 @@
+.ie10 .contact-container form input.message[type='text']{
+  width: 45%;
+}
+
+.ie10 .contact-container form label {
+  padding: 12px 18px 13px 18px;
+}
+/* contact section */
+
+.ie10 .contact-container form input[type='text'],.ie10 .contact-container form input[type='textarea'] {
+  padding: 18px 18px 18px 18px;
+}
+
+.ie10 .msg-label {
+	left: 15.1%;
+}
+@media (max-width: 1199px) {
+  .ie10 .msg-label {
+		left: 13.2%;
+}
+  }
+
+@media (max-width: 991px) {
+  .ie10 .msg-label {
+		left: 9.9%;
+}
+  }
+  
+@media (max-width: 767px) {
+  .ie10 .msg-label {
+		left: 7.4%;
+}
+  }
+  
+@media (max-width: 550px) {
+  .ie10 .msg-label {
+		left: 6.2%;
+}
+  }
+  
+@media (max-width: 479px) {
+  .ie10 .msg-label {
+		left: 10.4%;
+}
+  }
+  
+@media (max-width: 300px) {
+  .ie10 .msg-label {
+		left: 7.4%;
+}
+  }
+  
+
+/* contact section ends */
+

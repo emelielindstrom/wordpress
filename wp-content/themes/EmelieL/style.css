@@ -1,0 +1,26 @@
+/*
+Theme Name: Twenty twelve Tri
+Theme URI: http://tdh.me/wordpress/twentyten-tri/
+Description: Child Theme for Twenty Twelve that adds an extra sidebar.
+Author: Thord Daniel Hedengren
+Author URI: http://tdh.me/
+Template: twentytwelve
+Version: 1.0
+
+as made famous by the wonderful book
+smashing Wordpress Themes: Making Wordpress Beautiful
+
+*/
+
+/* Import the Twenty Twelve stylesheet */
+
+@import url('../twentytwelve/style.css');
+
+#leftsidebar {
+    float: left;
+    width: 220px;
+}
+
+#primary {
+    width:  520px;
+}
